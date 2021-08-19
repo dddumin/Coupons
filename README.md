@@ -1,6 +1,8 @@
 # Coupons
 Coupon Store Web Application
 
+Stack: Java, SpringBoot, Spring Data, Spring Web, React, MySQL, Hibernate
+
 The application has three types of users: customer, company, admin.
 The admin can add, delete, change information about the client and companies.
 The company can list coupons for sale, edit and delete coupons. Coupons have an expiration date, after the expiration date the coupons are removed from the database. Coupons have a quantity, upon reaching a quantity of 0 they are removed from the sale.
